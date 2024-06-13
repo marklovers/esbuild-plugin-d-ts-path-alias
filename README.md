@@ -1,19 +1,22 @@
-# esbuild-plugin-d-ts-path-alias ![GitHub package.json version](https://img.shields.io/github/package-json/v/ArtemKlyuev/esbuild-plugin-d-ts-path-alias) [![Tests](https://github.com/ArtemKlyuev/esbuild-plugin-d-ts-path-alias/actions/workflows/test.yml/badge.svg)](https://github.com/ArtemKlyuev/esbuild-plugin-d-ts-path-alias/actions/workflows/test.yml) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+# esbuild-dts-path-alias ![GitHub package.json version](https://img.shields.io/github/package-json/v/ArtemKlyuev/esbuild-plugin-d-ts-path-alias) [![Tests](https://github.com/ArtemKlyuev/esbuild-plugin-d-ts-path-alias/actions/workflows/test.yml/badge.svg)](https://github.com/ArtemKlyuev/esbuild-plugin-d-ts-path-alias/actions/workflows/test.yml) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 esbuild plugin for compiling typescript declarations along with path aliases
 transformation.
 
+> This plugin is a fork of original plugin [esbuild-plugin-d-ts-alias](https://www.npmjs.com/package/esbuild-plugin-d-ts-path-alias) updated to work with latest versions of `esbuild`.
 > ⚠️ version `>=3.0.0` of this package require `esbuild` `^0.17.0`, `typescript` `>=5` and `nodejs` `>=16.10`
 
 ## Table of contents
 
-- [Installation](#installation)
-- [Problem](#problem)
-- [Config](#config)
-  - [tsconfigPath](#tsconfigpath)
-  - [outputPath](#outputpath)
-  - [debug](#debug)
-- [Usage](#usage)
+- [esbuild-dts-path-alias   ](#esbuild-dts-path-alias---)
+  - [Table of contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Problem](#problem)
+  - [Config](#config)
+    - [tsconfigPath](#tsconfigpath)
+    - [outputPath](#outputpath)
+    - [debug](#debug)
+  - [Usage](#usage)
 
 ## Installation
 
